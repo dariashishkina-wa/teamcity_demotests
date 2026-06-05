@@ -9,7 +9,7 @@ public class CalculatorTests
     [Category("Smoke")]
     public void Add_TwoNumbers_ReturnsSum()
     {
-        Assert.That(2 + 3, Is.EqualTo(99));  // Специально сломано! 5 != 99
+        Assert.That(2 + 3, Is.EqualTo(5));
     }
 
     [Test]
